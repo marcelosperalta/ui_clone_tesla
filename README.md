@@ -44,6 +44,10 @@ Add to ```settings.json```:
 
 ![settings.json](./readme/vsc_2.png)  
 
+### vscode-styled-components
+
+[install](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
+
 ### Create React JS and React Native Component
 
 [install](https://marketplace.visualstudio.com/items?itemName=ricardo-emerson.create-react-tsx-component)
