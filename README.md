@@ -18,6 +18,7 @@
 
 [Framer Motion](https://www.framer.com/motion/)  
 [styled components](https://styled-components.com/)  
+[Google Fonts](https://fonts.google.com/)  
 
 ## Start
 
@@ -27,4 +28,14 @@ npx create-react-app --template=typescript clone-tesla
 
 ```
 yarn add framer-motion styled-components
+```
+
+```
+yarn add -D @types/styled-components
+```
+
+## Run
+
+```
+yarn start
 ```
