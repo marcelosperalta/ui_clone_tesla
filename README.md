@@ -22,7 +22,7 @@ _install:_
 
 [colozire](https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize)
 
-_configure:_
+_set up:_
 
 File > Preferences > Settings > Open Settings (JSON):  
 
@@ -46,27 +46,19 @@ Add to ```settings.json```:
 
 ### Create React JS and React Native Component
 
-_install:_
-
-[Ricardo_Emerson](https://marketplace.visualstudio.com/items?itemName=ricardo-emerson.create-react-tsx-component)
+[install](https://marketplace.visualstudio.com/items?itemName=ricardo-emerson.create-react-tsx-component)
 
 ### Rocketseat ReactJS
 
-_install:_
-
-[Rocketseat](https://marketplace.visualstudio.com/items?itemName=rocketseat.RocketseatReactJS)
+[install](https://marketplace.visualstudio.com/items?itemName=rocketseat.RocketseatReactJS)
 
 ### Rocketseat React Native
 
-_install:_
-
-[Rocketseat](https://marketplace.visualstudio.com/items?itemName=rocketseat.RocketseatReactNative)
+[install](https://marketplace.visualstudio.com/items?itemName=rocketseat.RocketseatReactNative)
 
 ### Bracket Pair Colorizer
 
-_install:_
-
-[CoenraadS](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
+[install](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
 
 ## Tools
 
