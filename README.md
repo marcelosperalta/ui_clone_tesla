@@ -14,6 +14,30 @@
 
 [Homepage da Tesla com ReactJS | UI Clone #14 | Guilherme Rodz](https://www.youtube.com/watch?v=Mf4Se4ZGcG8&t=1s)  
 
+## Visual Studio Code Extensions
+
+### Colorize
+
+File > Preferences > Settings > Open Settings (JSON):  
+
+![settings.json](./readme/vsc_1.png)  
+
+Add to ```settings.json```:
+
+```
+    "colorize.languages": [
+        "javascript",
+          "typescript",
+          "javascriptreact",
+          "typescriptreact",
+        "json",
+        "html",
+        "css"
+      ]
+```
+
+![settings.json](./readme/vsc_2.png)  
+
 ## Tools
 
 [Framer Motion](https://www.framer.com/motion/)  
