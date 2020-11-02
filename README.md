@@ -63,7 +63,9 @@ Add to ```settings.json```:
 ## Tools
 
 [Framer Motion](https://www.framer.com/motion/)  
+
 [styled components](https://styled-components.com/)  
+
 [Google Fonts](https://fonts.google.com/)  
 
 ## Start
