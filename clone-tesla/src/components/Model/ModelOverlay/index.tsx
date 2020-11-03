@@ -54,7 +54,9 @@ const ModelOverlay: React.FC<Props> = ({ model, children }) => {
     )
   }, [sectionScrollProgress])
 
-  return <Container>{children}</Container>
+  const opacity = useTransform(sectionScrollProgress, [-0.42, -0.05, 0.05, 0.42], [0, 1, 1, 0])
+
+  return <Container style={{ opacity }}>{children}</Container>
 };
 
 export default ModelOverlay;
