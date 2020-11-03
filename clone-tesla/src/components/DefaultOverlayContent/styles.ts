@@ -58,4 +58,13 @@ export const Buttons = styled.div`
             margin: 10px 0 0;
         }
     }
+
+    @media (min-width: 600px) {
+        flex-direction: row;
+        margin-bottom: 90px;
+
+        > button + button {
+            margin: 0 0 0 10px
+        }
+    }
 `;
