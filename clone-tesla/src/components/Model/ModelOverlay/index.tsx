@@ -1,3 +1,4 @@
+import { useTransform } from 'framer-motion';
 import React, { useLayoutEffect } from 'react';
 import { useCallback } from 'react';
 import { useState } from 'react';
@@ -14,8 +15,6 @@ interface Props {
 type SectionDimensions = Pick<HTMLDivElement, 'offsetTop' | 'offsetHeight'>
 
 const ModelOverlay: React.FC<Props> = ({ model, children }) => {
-  const { scrollY } = useWrapperScroll()
-
   // console.log(model.sectionRef)
 
   const getSectionDimensions = useCallback(() => {
@@ -41,6 +40,19 @@ const ModelOverlay: React.FC<Props> = ({ model, children }) => {
 
     return () => window.removeEventListener('resize', onResize)
   }, [getSectionDimensions])
+
+  const { scrollY } = useWrapperScroll()
+
+  const sectionScrollProgress = useTransform(
+    scrollY,
+    y => (y - dimensions.offsetTop) / dimensions.offsetHeight
+  )
+
+  React.useEffect(() => {
+    sectionScrollProgress.onChange(value => 
+      console.log({ sectionScrollProgess: value })
+    )
+  }, [sectionScrollProgress])
 
   return <Container>{children}</Container>
 };
