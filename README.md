@@ -72,6 +72,8 @@ Add to ```settings.json```:
 
 [Google Fonts](https://fonts.google.com/)  
 
+[coolors](https://coolors.co/)  
+
 ## Start
 
 ```
