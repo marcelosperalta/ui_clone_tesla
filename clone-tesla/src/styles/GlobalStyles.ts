@@ -1,4 +1,3 @@
-import { create } from "domain";
 import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`

@@ -22,7 +22,7 @@ const ModelOverlay: React.FC<Props> = ({ model, children }) => {
       offsetTop: model.sectionRef.current?.offsetTop,
       offsetHeight: model.sectionRef.current?.offsetHeight
     } as SectionDimensions
-  }, [])
+  }, [model.sectionRef])
 
   const [dimensions, setDimensions] = useState<SectionDimensions>(
     getSectionDimensions()
