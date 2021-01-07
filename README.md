@@ -1,5 +1,3 @@
-:link: https://marcelosperalta.github.io/ui_clone_tesla/
-
 <div align="center">
     <img src="./readme/logo_html.png" width="70">
     <img src="./readme/logo_css.png" width="70">
@@ -11,6 +9,8 @@
     &nbsp;
     <img src="./readme/logo_react.png" width="70">
 </div>
+
+:link: https://marcelosperalta.github.io/ui_clone_tesla/
 
 # [Rocketseat](https://rocketseat.com.br/)
 
