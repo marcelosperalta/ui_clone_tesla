@@ -12,9 +12,7 @@
 
 <br>
 
-<div align="center">
 ![screenshot](./readme/screenshot.gif)
-</div>
 
 <br>
 
