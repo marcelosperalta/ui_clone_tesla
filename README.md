@@ -12,7 +12,15 @@
 
 <br>
 
+<div align="center">
+![screenshot](./readme/screenshot.gif)
+</div>
+
+<br>
+
+<div align="center">
 :link: https://marcelosperalta.github.io/ui_clone_tesla/
+</div>
 
 # [Rocketseat](https://rocketseat.com.br/)
 
