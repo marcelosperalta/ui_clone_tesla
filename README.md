@@ -10,6 +10,8 @@
     <img src="./readme/logo_react.png" width="70">
 </div>
 
+<br>
+
 :link: https://marcelosperalta.github.io/ui_clone_tesla/
 
 # [Rocketseat](https://rocketseat.com.br/)
